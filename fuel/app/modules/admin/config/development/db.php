@@ -8,7 +8,7 @@ return array(
         'type' => 'mysqli',
         'connection' => array(
             'hostname' => 'localhost',
-            'database' => 'fuel_dev',
+            'database' => 'fuel_dev_admin',
             'username' => 'root',
             'password' => 'root',
         ),
