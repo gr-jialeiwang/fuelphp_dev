@@ -4,9 +4,9 @@
  */
 
 return array(
-    'default' => array(
+    'slave' => array(
+        'type' => 'mysqli',
         'connection' => array(
-//            'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
             'hostname' => 'localhost',
             'database' => 'fuel_dev',
             'username' => 'root',
@@ -16,15 +16,4 @@ return array(
         'charset' => 'utf8',
         'profiling' => true,
     ),
-    'slave' => array(
-        'connection' => array(
-            'hostname' => 'localhost',
-            'database' => 'fuel_dev',
-            'username' => 'root',
-            'password' => 'root',
-        ),
-        'table_prefix' => '',
-        'charset' => 'utf8',
-        'profiling' => true,
-    ),   
 );

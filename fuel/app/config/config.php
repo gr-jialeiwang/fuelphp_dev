@@ -315,6 +315,12 @@ return array(
             'packages' => array(
                 'auth',
             ),
+//            'modules' => array(
+//                'admin',
+//            ),
+//            'config' => array(
+//                'admin::db' => 'db',
+//            ),
         ),
 
 );

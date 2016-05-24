@@ -26,7 +26,7 @@ return array(
 	/**
 	 * DB connection, leave null to use default
 	 */
-	'db_connection' => null,
+	'db_connection' => 'slave',
 
 	/**
 	 * DB write connection, leave null to use same value as db_connection
