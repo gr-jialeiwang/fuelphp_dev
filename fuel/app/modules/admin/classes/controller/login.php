@@ -45,7 +45,7 @@ var_dump(\Auth::check());
                     \Response::redirect('admin/index');
                 }
             }
-            $error = 'ログイン失敗に失敗しました';
+            $error = 'ログインに失敗しました';
         }
 
         $view->set_safe('form', $form->build(\Uri::create('admin/login/index')));
